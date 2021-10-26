@@ -23,7 +23,12 @@ class Ninja{
         console.log(`Health Increased to ${this.health}`)
     }
 
+    
+
 }
+module.exports = {
+    Ninja: Ninja
+ }
 
 
 var chris = new Ninja("Chris", 100);
